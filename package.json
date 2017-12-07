@@ -18,9 +18,9 @@
   "scripts": {
     "test": "xo && ava -v"
   },
-  "files": [
-    "index.js"
-  ],
+	"files": [
+		"cli.js"
+	],
   "keywords": [
     "github",
     "star",
