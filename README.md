@@ -13,16 +13,35 @@ $ npm install --global gh-star-repos-cli
 $ gh-star-repos --help
 
   Usage
-    gh-star-repos [input]
+    $ gh-star-repos <username>
+    $ ghsr <username>
 
   Options
-    --foo  Lorem ipsum [Default: false]
+    --token  Personal access token [Default: None]
+    --order  Sorting order ASC or DESC [Default: DESC]
 
   Examples
-    $ gh-star-repos
-    unicorns & rainbows
-    $ gh-star-repos ponies
-    ponies & rainbows
+    $ gh-star-repos progrmoiz
+    python-snippets 171
+    simple-blockchain-implementation 3
+    wiki-viewer 2
+    ... This will show all public repos.
+
+    $ gh-star-repos sindresorhus --token=foo
+    awesome 72955
+    awesome-nodejs 20244
+    awesome-electron 12929
+    quick-look-plugins 10102
+    pageres 8176
+    pure 4265
+    screenfull.js 3743
+    ... This will show all public repos.
+
+    $ gh-star-repos progrmoiz --order=ASC
+    linux-cheatsheet 0
+    position-playground 0
+    random-quote 0
+    ... This will show all public repos.
 ```
 
 
