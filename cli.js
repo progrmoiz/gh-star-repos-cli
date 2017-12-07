@@ -6,6 +6,7 @@ const ghStarRepos = require('gh-star-repos');
 const cli = meow(`
 	Usage
 	  $ gh-star-repos <username>
+	  $ ghsr <username>
 
 	Options
 	  --token  Personal access token [Default: None]
