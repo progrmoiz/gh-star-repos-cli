@@ -1,0 +1,42 @@
+{
+  "name": "gh-star-repos-cli",
+  "version": "0.0.0",
+  "description": "Github user repo by star cli",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progrmoiz/gh-star-repos-cli.git"
+  },
+  "bin": {
+    "gh-star-repos": "cli.js",
+    "gssr": "cli.js"
+  },
+  "author": "Moiz <progrmoiz@gmail.com> (github.com/progrmoiz)",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava -v"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "github",
+    "star",
+    "sort"
+  ],
+  "dependencies": {
+    "gh-star-repos": "0.0.4",
+    "meow": "^4.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "execa": "^0.8.0",
+    "xo": "^0.18.2"
+  },
+  "bugs": {
+    "url": "https://github.com/progrmoiz/gh-star-repos-cli/issues"
+  },
+  "homepage": "https://github.com/progrmoiz/gh-star-repos-cli#readme"
+}
