@@ -1,4 +1,4 @@
-# gh-star-repos-cli
+# gh-star-repos-cli [![Build Status](https://travis-ci.org/progrmoiz/gh-star-repos-cli.svg?branch=master)](https://travis-ci.org/progrmoiz/gh-star-repos-cli) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 > :octocat: Get a Github user repos by star
 
 ## Install
