@@ -9,7 +9,7 @@
   },
   "bin": {
     "gh-star-repos": "cli.js",
-    "gssr": "cli.js"
+    "ghsr": "cli.js"
   },
   "author": "Moiz <progrmoiz@gmail.com> (github.com/progrmoiz)",
   "engines": {
