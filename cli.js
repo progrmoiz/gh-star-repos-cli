@@ -50,16 +50,8 @@ ghStarRepos(username, {
 .then(repos => {
 	repos.forEach(repo => {
 		console.log(repo.name, repo.stargazers_count);
-<<<<<<< HEAD
 	});
 })
 .catch(err => {
 	console.error(err);
 });
-=======
-	})
-})
-.catch(err => {
-	console.error(err);
-})
->>>>>>> 7e68b647f854e77e70e6fca13562ea6c2d07fb3a

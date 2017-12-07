@@ -15,3 +15,4 @@ test('order test', async t => {
 	const cmd = await execa('./cli.js', ['freeCodeCamp', '--order=ASC']);
 	const lastLine = cmd.stdout.split('\n').pop();
 	t.true(lastLine.includes('freeCodeCamp'));
+});
